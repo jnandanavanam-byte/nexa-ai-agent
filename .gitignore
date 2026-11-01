@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and cache
+venv/
+.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local database files
+backend/app/data/*.db
+backend/app/data/*.db-*
+
+# Generated voice/audio files
+backend/voice_output/
+backend/temp_*
+*.wav
+*.mp3
+*.m4a
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

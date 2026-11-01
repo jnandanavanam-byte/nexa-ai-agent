@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-dotenv
+sqlparse
+firecrawl-py
+openai
+requests
+python-multipart
+openai-whisper
+pyttsx3
